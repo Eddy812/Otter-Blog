@@ -1,4 +1,8 @@
 $navbar-default-bg: purple;
+$navbar-default-link-color: #fff;
+$border-radius-base: 0;
+$btn-primary-bg: purple;
+
 
 @import "bootstrap-sprockets";
 
@@ -36,11 +40,11 @@ text-align: center;
 
 .jumbotron {
 
-background-image: asset-url('new_cover_page.png');
+background-image: asset-url('otter.jpg');
 
 background-size: cover;
 
-height: 550px;
+height: 450px;
 
 }
 
@@ -48,7 +52,7 @@ height: 550px;
 
 color: #fff;
 
-text-align: center;
+text-align: left;
 
 margin-bottom: 30px;
 
@@ -103,5 +107,37 @@ footer ul li {
 float: left;
 
 margin-left: 15px;
+
+}
+
+.article-actions {
+
+border-top: 1px solid #eaeaea;
+
+padding-top: 5px;
+
+}
+
+.description {
+
+margin-top: 0;
+
+}
+
+.article-title {
+
+font-weight: bold;
+
+font-size: 1.5em;
+
+}
+
+.article-body {
+
+border-top: 1px solid #eaeaea;
+
+padding-top: 15px;
+
+padding-bottom: 15px;
 
 }
